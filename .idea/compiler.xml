@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zb-elasticsearch" />
+        <module name="zb-admin-service" />
+        <module name="zb-admin-interface" />
+        <module name="zb-common" />
+        <module name="zb-registry" />
+        <module name="zb-gateway" />
+        <module name="zb-user-service" />
+        <module name="zb-product-interface" />
+        <module name="zb-product-service" />
+        <module name="zb-user-interface" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="zb-auth" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="zb-admin" options="-parameters" />
+      <module name="zb-admin-interface" options="-parameters" />
+      <module name="zb-admin-service" options="-parameters" />
+      <module name="zb-auth" options="-parameters" />
+      <module name="zb-common" options="-parameters" />
+      <module name="zb-elasticsearch" options="-parameters" />
+      <module name="zb-gateway" options="-parameters" />
+      <module name="zb-product-interface" options="-parameters" />
+      <module name="zb-product-service" options="-parameters" />
+      <module name="zb-registry" options="-parameters" />
+      <module name="zb-user" options="-parameters" />
+      <module name="zb-user-interface" options="-parameters" />
+      <module name="zb-user-service" options="-parameters" />
+      <module name="zhenbao" options="" />
+    </option>
+  </component>
+</project>
